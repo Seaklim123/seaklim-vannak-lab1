@@ -1,0 +1,22 @@
+{
+  "name": "seaklim-vannak-lab1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Seaklim123/seaklim-vannak-lab1.git",
+  "author": "Seaklim123 <seaklimvannak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "eslint": "8.57.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  }
+}
